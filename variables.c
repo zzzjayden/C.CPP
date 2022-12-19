@@ -21,3 +21,11 @@ int main(void)
 
 }
 
+int main(void)
+{   
+    char Character_name[] = "Jayden";
+    printf("hello my name is %s\n", Character_name);
+    return 0;
+
+
+}
