@@ -38,3 +38,21 @@ int main (void){
     return 0;
     
 }
+
+
+// int main(void){
+//     int jayden_age = 18;
+//     int dada_age = 66;
+//     int ba_age = 46;
+//     int mom_age = 38;
+//     if ((ba_age - mom_age) < 5 )
+//         printf("The age gap is not a lot");
+    
+//     else if(ba_age - mom_age < 10)
+//         printf("The age gape is a little");
+//     else if(ba_age - mom_age < 15)
+//         printf("The age gape is quite a bit");
+//     else
+//         printf("the gap is a lot");
+//     return 0;
+//}
