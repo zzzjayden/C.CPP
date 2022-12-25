@@ -13,7 +13,7 @@ int main(void)
     printf("Which number of service would you like?\n\n");
     printf("You have chosen: ");
     scanf("%d", &number);
-
+    
     if (number == 1)
         printf("You have chosen Car wash\nThat will cost you %d dollars.\n", car_wash);
     else if (number == 2)
@@ -24,12 +24,12 @@ int main(void)
         printf("You did not choose any of the choices");
 
     printf("Would you like a second service? Answer with 1=Yes/2=No: ");
-    scanf("%d\n", &choice);
+    scanf("%d", &choice);
     if (choice == 1){
         int number2;
         printf("Choose the number of your second service: \n");
         printf("You have chosen: ");
-        scanf("%d\n", &number2);
+        scanf("%d", &number2);
         
 
         if (number2 == 1)
@@ -39,9 +39,9 @@ int main(void)
         else if (number2 == 3)
             printf("You have chosen Tire rotation\nThat will cost %d dollars.\n", tire_rotation);
         else
-            printf("You did not choose any of the choices");
+            printf("You did not choose any of the choices\n");
     }else{
-        printf("You have chosen No");
+        printf("You have chosen No\n");
     }
 
 
